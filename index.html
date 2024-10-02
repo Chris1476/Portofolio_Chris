@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Christian Matias Criado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <header class="bg-dark text-white text-center py-5">
+        <img src="img\yo.webp" alt="Foto de perfil" class="rounded-circle" style="width: 150px; height: 150px;">
+        <h1>Christian Matias Criado</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-light" href="#about">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="container py-5">
+        <h2 class="text-center">Sobre mí</h2>
+        <p class="text-center">
+            Soy un programador senior con amplia experiencia en Visual Basic 6 y un sólido dominio de SQL Server. A lo largo de mi carrera, he desarrollado aplicaciones robustas y eficientes, siempre buscando la mejor solución para mis clientes. Actualmente, me encuentro expandiendo mis habilidades aprendiendo nuevas tecnologías como C#, Entity Framework, API REST y ASP.NET Core MVC. Estoy apasionado por la programación y siempre en búsqueda de nuevos retos que me permitan crecer profesionalmente.
+        </p>
+    </section>
+
+    <section id="projects" class="container py-5">
+        <h2 class="text-center">Proyectos</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 d-flex align-items-stretch mb-4">
+                <div class="card flex-fill">
+                    <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Ventas de Autos</h5>
+                        <p class="card-text">Un sistema integral para gestionar la compra y venta de vehículos, que permite a los concesionarios administrar inventarios, realizar búsquedas por características, y llevar un seguimiento eficiente de clientes y transacciones. Ideal para optimizar el proceso de ventas y mejorar la experiencia del cliente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch mb-4">
+                <div class="card flex-fill">
+                    <img src="img/proyecto2.png" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Administración de Recursos Humanos</h5>
+                        <p class="card-text">Un sistema que optimiza la gestión de empleados, incluyendo contratación, seguimiento, nómina y evaluaciones de desempeño, mejorando la eficiencia administrativa y la toma de decisiones en recursos humanos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch mb-4">
+                <div class="card flex-fill">
+                    <img src="img/proyect3.png" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto de Clima en Tiempo Real</h5>
+                        <p class="card-text">Una aplicación que proporciona actualizaciones meteorológicas en tiempo real, mostrando datos como temperatura, humedad y pronósticos. Utiliza APIs de clima para ofrecer información precisa y permite a los usuarios buscar condiciones climáticas por ubicación, mejorando la planificación diaria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+        <h2 class="text-center">Contacto</h2>
+        <form id="contact-form">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Tu email" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" id="message" placeholder="Tu mensaje" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Mi Portfolio</p>
+        <a href="https://www.linkedin.com/in/christian-matias-criado-2a99712a/" target="_blank" class="text-white me-3">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/Chris1476" target="_blank" class="text-white">
+            <i class="bi bi-github"></i>
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
